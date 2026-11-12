@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "unicodefix",
+	"version": "${version}",
+	"name": "Unicode Fix",
+	"description": "Fixes garbled text on some mods and \"Force Unicode Font\" settings which doesn't work on some languages (e.g. Japanese, Chinese). Ornithe port of Yukkuritaku's Unicode Fix.",
+	"authors": [
+		"Yukkuritaku",
+		"eSuGames"
+	],
+	"contact": {
+		"homepage": "https://github.com/Yukkuritaku/unicode-fix",
+		"sources": "https://github.com/eSuGames/unicode-fix-ornithe"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.yukkuritaku.unicodefix.UnicodeFixMod"
+		]
+	},
+	"mixins": [
+		"unicodefix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "1.8.9"
+	}
+}
