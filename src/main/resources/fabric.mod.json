@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "unicodefix",
 	"version": "${version}",
-	"name": "Unicode Fix",
+	"name": "Unicode Fix Ornithe",
 	"description": "Fixes garbled text on some mods and \"Force Unicode Font\" settings which doesn't work on some languages (e.g. Japanese, Chinese). Ornithe port of Yukkuritaku's Unicode Fix.",
 	"authors": [
 		"Yukkuritaku",
@@ -13,6 +13,7 @@
 		"sources": "https://github.com/eSuGames/unicode-fix-ornithe"
 	},
 	"license": "MIT",
+	"icon": "assets/unicodefix/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
